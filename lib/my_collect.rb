@@ -7,5 +7,5 @@ def my_collect(arr)
   arr
 end 
 
-my_collect(arr) {|lang| lang.upcase!}
+my_collect(arr) {|lang| lang.upcase}
 
