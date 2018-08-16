@@ -1,9 +1,10 @@
 def my_collect(arr)
   i = 0 
+  collection = []
   while i < arr.length 
-    yield(arr[i])
+    collection << yield(arr[i].upcase)
     i+=1 
   end
-  arr[].upcase
+  collection
 end 
 
